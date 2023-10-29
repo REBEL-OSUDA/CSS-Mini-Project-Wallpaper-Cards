@@ -1,0 +1,34 @@
+/* RESET */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto:ital@1&family=Tilt+Neon&family=Young+Serif&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width:100vw;
+    font-family: 'Nunito Sans', sans-serif;
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+}
+.container{
+    width:100vw;
+    margin:10px;
+    height:100vh;
+    padding:5px;
+    border:4px solid #000;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+header, footer{
+    background-color: #1E293B;
+    color:white;
+}
